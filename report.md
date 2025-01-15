@@ -41,8 +41,6 @@ Logistic Regression: The primary algorithm used in this analysis was logistic re
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
 Machine Learning Model: Logistic Regression
 Accuracy:
 - 99% - The model correctly predicts the loan status for 99% of the cases.
@@ -58,18 +56,9 @@ Recall:
 F1-Score:
 - Healthy Loans (0): 1.00 - Perfect F1-score indicating excellent balance between precision and recall.
 - High-Risk Loans (1): 0.90 - Indicates good performance but with some room for improvement.
-- 
+
 
 ## Summary
-
-Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
-
-
 
 Based on the performance metrics, I recommend using the logistic regression model for predicting loan statuses. Its high accuracy, along with strong precision and recall scores, make it a reliable choice for this classification problem.
 
